@@ -1,0 +1,50 @@
+HTML - VERY SIMPLE GRID I CREATED TO TEST FLEXBOX
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FlexBlog</title>
+</head>
+<body>
+    
+
+    <section class="container">
+
+<div class="item">1</div>
+<div class="item">2</div>
+<div class="item">3</div>
+<div class="item">4</div>
+<div class="item">5</div>
+<div class="item">6</div>
+
+    </section>
+</body>
+</html>
+
+
+
+CSS
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 220px;
+    max-height: 800px;
+    border: 1px solid black;
+    margin:auto;
+
+    
+}
+
+.item { 
+    height: 100px;
+    width: 100px;
+   background-color:lightcoral;
+   margin:5px;
+   text-align: center;
+   
+
+}
