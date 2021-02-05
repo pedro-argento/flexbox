@@ -1,0 +1,592 @@
+INDEX.HTML
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<title>FlexBlog</title>       
+</head>
+<body>
+    
+    <div class="superinfo-bg">
+        <div class="superinfo">
+    <p>Seg / Sex - 08:00 às 18:00</p>
+    <a href="+55219999-9999">+55 21 9999-9999</a>
+    <p>Av. Ali Perto, 330, Botafogo - RJ</p>
+        </div>
+    </div>
+
+
+    <header class="menu-bg">
+        <div class="menu">
+            <div class="menu-logo">
+                <a href="#">FlexBlog</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#preço">Preço</a></li>
+                    <li><a href="#qualidade">Qualidade</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <h1 class="introducao">Novos valores e <br> propriedades do CSS</h1>
+<!-- ESSA PARTE SERÁ O CORPO DO SITE, COM AS INFORMAÇÕES DE SOBRE E AS FOTOS -->
+    <section class="sobre" id="sobre">
+        <div class="sobre-info">
+            <h1>Sobre</h1>
+            <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas objetivos.</p>
+               <br>
+            <p> O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas objetivos. </p>
+            
+        </div>   
+        
+        <div class="sobre-img">
+            <img src="./images/sobre1.jpg" alt="Sobre 1">
+        </div>
+
+        <div class="sobre-img">
+            <img src="./images/sobre2.jpg" alt="Sobre 2">
+        </div>
+    </section>
+<!-- ACABA O CORPO DO SITE -->
+
+<section class="produtos" id="produtos">
+<h1>Produtos</h1>
+
+<div class="produtos-container">
+    <div class="produtos-item purple">
+        <h2>Purple</h2>
+        <img src="./images/produtos1.jpg" alt="Produtos 1">
+    </div>
+    <div class="produtos-item pink">
+        <h2>Pink</h2>
+        <img src="./images/produtos2.jpg" alt="Produtos 2">
+    </div>
+    <div class="produtos-item blue">
+        <h2>Blue</h2>
+        <img src="./images/produtos3.jpg" alt="Produtos 3">
+    </div>
+</div>
+</section>
+<!-- ACABA SESSÃO SOBRE -->
+                <!-- PREÇOS -->
+<section class="preco" id="preco">
+    <div class="preco-item">
+        <h2>Cobre</h2>
+        <span><sup>R$</sup>19</span>
+        <ul>
+            <li>Planos Ilimitados</li>
+            <li>Acesso Restrito</li>
+            <li>Conteúdo Secreto</li>
+            <li>Suporte 24h</li>
+        </ul>
+        <a href="#comprar">Comprar</a>
+    </div>
+    
+
+    <div class="preco-item">
+        <h2>Prata</h2>
+        <span><sup>R$</sup>39</span>
+        <ul>
+            <li>Planos Ilimitados</li>
+            <li>Acesso Restrito</li>
+            <li>Conteúdo Secreto</li>
+            <li>Suporte 24h</li>
+            <li>Compra Exclusiva</li>
+        </ul>
+        <a href="#comprar">Comprar</a>
+    </div>
+
+
+    <div class="preco-item">
+        <h2>Ouro</h2>
+        <span><sup>R$</sup>79</span>
+        <ul>
+            <li>Planos Ilimitados</li>
+            <li>Acesso Restrito</li>
+            <li>Conteúdo Secreto</li>
+            <li>Suporte 24h</li>
+            <li>Compra Exclusiva</li>
+            <li>Download dos Itens</li>
+        </ul>
+        <a href="#comprar">Comprar</a>
+    </div>
+</section>
+<!-- ACABA SESSAO PREÇOS -->
+                    <!-- QUALIDADES -->
+
+<section class="qualidade" id="qualidade">
+    <div class="qualidade-item">
+        <h2>Inteligente</h2>
+        <p>O que temos que ter sempre em mente é que a 
+            determinação clara de objetivos afeta 
+            positivamente a correta previsão</p>
+    </div>
+    
+
+    <div class="qualidade-item">
+        <h2>Compacto</h2>
+        <p>O que temos que ter sempre em mente é que 
+            a determinação clara de objetivos afeta 
+            positivamente a correta previsão das condições 
+            inegavelmente</p>
+    </div>
+
+    <div class="qualidade-item">
+        <h2>Econômico</h2>
+        <p>O que temos que ter sempre em mente é que a 
+            determinação clara de objetivos afeta 
+            positivamente a correta previsão</p>
+    </div>
+
+    <div class="qualidade-item">
+        <h2>Transparente</h2>
+        <p>O que temos que ter sempre em mente é que a 
+            determinação clara de objetivos afeta 
+            positivamente a correta previsão</p>
+    </div>
+
+    <div class="qualidade-item">
+        <h2>Opaco</h2>
+        <p>O que temos que ter sempre em mente é que a determinação 
+            clara de objetivos afeta positivamente a correta previsão 
+            das condições inegavelmente</p>
+    </div>
+
+
+    <div class="qualidade-item">
+        <h2>Sustentável</h2>
+        <p>O que temos que ter sempre em mente é que a 
+            determinação clara de objetivos afeta 
+            positivamente a correta previsão</p>
+    </div> 
+
+</section>
+
+<section class="newsletter">
+    <div class="newsletter-info">
+        <h1>Newsletter</h1>
+        <p>Assine e fique por dentro das novidades</p>
+    </div>    
+    
+    <form class="newsletter-form">
+        <input type="text" placeholder="Seu e-mail">
+        <button type="submit">Assinar</button>
+    </form>
+</section>
+
+<footer class="footer">
+    <p>FlexBlog © Todos os direitos reservados.</p>
+</footer>
+</body>
+</html>
+
+
+
+STYLE.CSS
+
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: nunito;
+    list-style:none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width:100%;
+}
+
+ /*Superinfo*/
+
+ .superinfo-bg {
+     background-color: #122ab2;
+     color:white;
+ }
+
+ .superinfo {
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     max-width: 960px;
+     margin: 0 auto;
+     padding-top: 10px;
+ }
+
+ .superinfo p, .superinfo a {
+
+    margin: 0 10px 10px 10px;
+ }
+
+ .superinfo a {
+     color: white;
+ }
+
+ /*MENU*/
+
+ .menu-bg {
+    
+    background-color: #2c70ff;
+ }
+
+ .menu {
+     
+     max-width: 960px;
+     margin: 0 auto;
+     padding: 15px 0; 
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-items: center;
+
+ }
+ 
+ .menu a {
+     color: white;
+ }
+
+ .menu-logo {
+     font-size: 2.25em;
+     font-weight: bold;
+     margin: 0 10px;
+ }
+
+ .menu nav ul {
+     display: flex;
+     flex-wrap: wrap;
+ }
+
+ .menu nav a {
+     font-size: 20px;
+     display: block;
+     padding: 10px;
+
+ }
+
+ .menu nav a:hover {
+   color:#122ab2;
+ }
+
+ /*introdução*/
+
+ .introducao {
+     font-size: 3em;
+     line-height: 1;
+     max-width: 960px;
+     margin: 0 auto;
+    padding: 60px 10px;
+ }
+
+ /* SOBRE */
+
+ .sobre {
+     border-top: 2px solid #2c70ff;
+     border-top: 2px solid #2c70ff;
+     max-width: 960px;
+     margin: 0 auto;
+     padding: 60px 0;
+     display: flex;
+     flex-wrap: wrap;
+ }
+
+ .sobre-info {
+    flex:2 1 300px;
+    margin: 0 10px;
+}
+
+.sobre-info h1 {
+    font-size: 3em;
+    margin-bottom: .5em;
+}
+
+.sobre-info p {
+    font-size: 1.25em;
+    line-height: 1.4em;
+    margin-bottom: 1em;
+    color: #7c7c7c;
+}
+
+.sobre-img {
+    flex: 1 1 160px;
+    margin: 0 10px;
+}
+
+
+/* PRODUTOS */
+
+.produtos {
+    border-top: 2px solid #2c70ff;
+    max-width: 960px;
+    margin: 60px auto;
+}
+
+.produtos h1 {
+padding-top: 50px;
+font-size: 3em;
+margin: 0 10px 60px 10px;
+}
+
+.produtos-container {
+display:flex;
+flex-wrap:wrap;
+align-items: flex-end;
+
+}
+
+.produtos-item {
+    flex: 1 1 175px;
+    margin: 10px;
+}
+
+.produtos-item h2 {
+    font-size: 3em;
+    color: #a4a4a4;
+    background-color: #f7f7f7;
+    padding: 60px 20px;
+
+}
+
+.purple {
+    border-top: 8px solid #ae81ff;
+}
+
+.pink {
+    border-top: 8px solid #f9265e;
+}
+
+.blue {
+    border-top: 8px solid #66d9eb;
+}
+
+/* PREÇOS */
+
+.preco {
+   padding: 60px;
+    background-color:#f7f7f7;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.preco-item {
+    flex: 1;
+    border: 4px solid white;
+    padding:20px;
+    margin: 10px;
+}
+
+.preco-item h2 {
+    font-size: 3em;
+    color:#a4a4a4;
+    text-align:center;
+    margin-top: 20px;
+}
+
+.preco-item span {
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0 10px 0;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    font-size: 3em;
+}
+
+.preco-item sup {
+    font-size:1.5rem;
+}
+
+.preco-item ul {
+max-width:300px;
+margin: 20px auto;
+font-size: 1.25em;
+font-style: italic;
+color: #7c7c7c;
+}
+
+.preco-item li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.preco-item li::after {
+    content:'';
+    display:block;
+    width: 6px;
+    height: 6px;
+    background: #2c70ff;
+    border-radius: 50%;
+}
+
+.preco-item a {
+    max-width:300px;
+    display: block;
+    margin: 20px auto;
+    border: 4px solid;
+    color: #222222;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2.25em ;
+    padding: 15px 0;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+
+.preco{
+    padding-left:10px;
+    padding-right: 10px;
+}
+}
+
+/* Qualidade */
+
+.qualidade {
+    max-width: 960px;
+    margin: 60px auto;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.qualidade-item {
+flex: 1 1 300px;
+margin: 20px 10px;
+}
+   
+.qualidade-item h2 {
+
+font-size: 2.25em;
+color: #a4a4a4;
+margin-bottom: 20px;
+}
+
+.qualidade-item h2::before {
+    content:'';
+    display:inline-block;
+    width: 8px;
+    height:30px;
+    margin-right: 10px;
+    background:blue;
+}
+
+.qualidade-item:nth-of-type(3n+1) h2::before {
+background: #ae81ff;
+}
+
+.qualidade-item:nth-of-type(3n+2) h2::before {
+    background: #f9265e;
+    }
+
+.qualidade-item:nth-of-type(3n+3) h2::before {
+background: #66d9eb;
+}
+
+.qualidade-item p {
+    line-height: 1.4;
+    font-size: 1.25em;
+    color: #7c7c7c;
+}
+
+/* FOOTER */
+
+.newsletter {
+    display: flex;
+    background-color: #f7f7f7;
+    padding: 60px calc((100% - 960px) / 2 );
+    flex-wrap: wrap;
+}
+
+.newsletter-info {
+    flex:1 1 240px;
+    margin: 0 10px;
+
+}
+
+.newsletter-info h1 {
+    font-size: 3em;
+    color: #a4a4a4;
+}
+
+.newsletter-info p {
+    font-size: 1.25em;
+    font-style: italic;
+    max-width: 230px;
+    color: #7c7c7c;
+    margin-bottom: 10px;
+}
+
+.newsletter-form {
+    flex:2 1 260px;
+    margin: 0 10px;
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newsletter-form input {
+    flex: 3 1 200px;
+    font-size: 1.25em;
+    color: #7c7c7c;
+    font-style: italic;
+    font-family: "nunito";
+    border: 4px solid #2c70ff;
+    background: transparent;
+    padding: 10px;
+    margin: 0px;
+    border-radius:0px;
+}
+
+.newsletter-form button {
+    flex: 1 1 200px;
+    font-family: "nunito";
+    font-size: 2.25em;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #2c70ff;
+    color: white;
+    margin: 0px;
+    cursor: pointer;
+    border: 0px;
+    padding: 15px 10px;
+}
+
+@media (max-width:600px) {
+    .newsletter-form button {
+        font-size: 1.5em;
+    } 
+
+}
+/* footer */
+
+.footer {
+    display: flex;
+    background: #2c70ff;
+    height: 200px;
+    align-items: center;
+    
+}
+
+.footer p {
+    text-align: center;
+    flex: 1;
+    font-size: 2.25em;
+    color: #122ab2;
+}
